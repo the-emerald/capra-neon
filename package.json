@@ -1,0 +1,14 @@
+{
+  "name": "capra-neon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Anson <git@anson-cheung.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.3"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
