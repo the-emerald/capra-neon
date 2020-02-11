@@ -10,9 +10,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "capra"
+version = "0.1.0"
+
+[[package]]
 name = "capra-neon"
 version = "0.1.0"
 dependencies = [
+ "capra",
  "neon",
  "neon-build",
 ]
