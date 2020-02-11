@@ -12,8 +12,8 @@ use neon::register_module;
 
 fn ndl_demo(mut cx: FunctionContext) -> JsResult<JsNumber> {
     let air = Gas::new(0.79, 0.21, 0.0).unwrap();
-    let gf_low = 50;
-    let gf_high = 85;
+    let gf_low = 100;
+    let gf_high = 100;
     let ascent_rate = -10;
     let descent_rate = 20;
 
